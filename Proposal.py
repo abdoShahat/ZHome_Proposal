@@ -200,5 +200,6 @@ if vil or app or vac ==True:
 	if price:
 		total = 7000+door_window+motion_sensor+smart_light+smart_intercom+smart_Meter+smart_AC+voice_ass
 		st.write(option_room,'room need',total,'LE')
+		st.balloons()
 		
 
