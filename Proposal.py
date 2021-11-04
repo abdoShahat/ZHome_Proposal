@@ -12,6 +12,13 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+col1, mid, col2 = st.columns([1,1,35])
+with col1:
+    st.image('6.png', width=60)
+with col2:
+    new_title = '<p style="font-family:sans-serif; color:#3d9be9; font-size: 42px;">ZHome</p>'
+    st.markdown(new_title, unsafe_allow_html=True)
+
 
 
 col1,col2,col3 = st.columns(3)
