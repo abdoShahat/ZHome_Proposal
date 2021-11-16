@@ -361,13 +361,13 @@ if vil or app or vac ==True:
 		total = 7000+outdoor_camera+door_window+motion_sensor+smart_light+smart_intercom+smart_Meter+smart_AC+voice_ass
 		total1 = total+shutt+wif+wate+smok+sire+indoo
 		# m = str(option_room)+ ' ' +'room need'+' '+str(total)+' '+'LE'
-		m = 'Your house maybe costs'+' '+str(total1)+' '+'LE'
+		m = 'Your house is estimated costs'+' '+str(total1)+' '+'LE'
 		c1,c2,c3=st.columns(3)
 		with c1:
 			pass
 
 		with c2:
-			new_title1 = f"""<p style="font-family:sans-serif; color:#3d9be9; font-size: 24px;">{m}</p>"""
+			new_title1 = f"""<p style="font-family:sans-serif; color:#3d9be9; font-size: 23px;">{m}</p>"""
 			st.markdown(new_title1, unsafe_allow_html=True)
 			# c=st.header(m)
 		with c3:
