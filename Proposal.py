@@ -123,7 +123,7 @@ if vil or app or vac ==True:
 			with co2:
 				st.header('Camera outdoors')
 			with co3:
-				st.header('8000~12000 LE ')
+				st.header('2000~6000 LE ')
 
 
 		contain = st.container()
@@ -201,7 +201,7 @@ if vil or app or vac ==True:
 			with co2:
 				st.header('Voice assistant ')
 			with co3:
-				st.header('3500 LE ')
+				st.header('1800~3500 LE ')
 
 	if lig==True:
 		smart_light = option_room*2000
@@ -213,7 +213,7 @@ if vil or app or vac ==True:
 			with co2:
 				st.header('Smart lightness ')
 			with co3:
-				st.header('1500 LE ')
+				st.header('1400~2500 LE ')
 
 	contain8 = st.container()
 	co1,co2,co3= st.columns(3)
