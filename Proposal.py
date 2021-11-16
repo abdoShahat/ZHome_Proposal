@@ -55,12 +55,12 @@ if vil==True:
 	Rooms['First column'])
 elif app==True:
 	option_room = st.selectbox(
-	'How many Rooms ?',
+	'How many Rooms ? including(bed, living, etc..)',
 	Rooms['First column'])
 
 elif vac==True:
 	option_room = st.selectbox(
-	'How many Rooms ? ',
+	'How many Rooms ? including(bed, living, etc..)',
 	Rooms['First column'])
 
 
@@ -82,7 +82,7 @@ st.write('_____________________________________________________________')
 if vil or app or vac ==True:
 
 	st.markdown("""
-	<div style="text-align: center; color:#3d9be9; font-size: 42px"> ZHome service </div>
+	<div style="text-align: center; color:#3d9be9; font-size: 42px"> Smart categories  </div>
 
 	""",unsafe_allow_html=True)
 	colu1,colu2,colu3,colu4,colu5 = st.columns(5)
@@ -322,7 +322,7 @@ if vil or app or vac ==True:
 			with co2:
 				co1.image('indoor.jpg',width=150)
 			with co3:
-				st.header('Camer Indoor')
+				st.header('Camera Indoor')
 			with co4:
 				st.header('1000 LE')	
 		if shut:
