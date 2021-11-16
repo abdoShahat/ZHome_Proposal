@@ -326,7 +326,7 @@ if vil or app or vac ==True:
 			with co4:
 				st.header('1000 LE')	
 		if shut:
-			shutt=1600
+			shutt=1600*option_room
 		if wi:
 			wif=5000
 		if wat:
