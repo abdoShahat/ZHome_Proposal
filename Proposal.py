@@ -51,7 +51,7 @@ Rooms = pd.DataFrame({
 
 if vil==True:
 	option_room = st.selectbox(
-	'How many Rooms ? including(bath, living, etc..)',
+	'How many Rooms ? including(bed, living, etc..)',
 	Rooms['First column'])
 elif app==True:
 	option_room = st.selectbox(
